@@ -1,0 +1,48 @@
+/* Gaya dari kesemuanya */
+* {
+    padding: 0%; /* Mengatur padding ke 0% untuk semua elemen */
+    margin: 1%; /* Mengatur margin ke 1% untuk semua elemen */
+    font-family: 'Arial', sans-serif; /* Atur jenis fontArial  untuk semua elemen teks */
+    box-sizing: content-box; 
+}
+
+/* Styles untuk body  */
+body {
+    display: flex; /* Gunakan flexbox untuk tata letak */
+    height: 0%; /* Atur ketinggian menjadi 0% dari tinggi area pandang */
+    width: 100%; /* Atur lebar menjadi 100% dari lebar area pandang */
+    justify-content: center; /* Membuat konten secara horizontal */
+}
+
+/* Memberi CSS Untuk Heading 1*/
+h1 {
+    padding: 3%; /* Atur padding untuk elemen h1 */
+    border-style: outset; /* Mengatur border dengan menggunakan gaya outset */
+    border-width: 8px; /* Atur lebar batas menjadi 8px */
+    border-color: rgb(255, 247, 0); /* Mengatur warna border */
+}
+
+/* Memberi CSS untuk Paragraph */
+p {
+    padding: 3%; /* Atur Padding untuk Paragraph */
+}
+
+/* CSS untuk class 'card' */
+.card {
+    width: 32%; /* Tetapkan lebar menjadi 32% dari wadah induk */
+    padding: 30px; 
+    justify-content: center; 
+    height: 5%; 
+    border-style: outset; /* Atur gaaya border */
+    border-width: 7px; /* Atur ketebalan border */
+    background-color: rgba(254, 0, 0, 0.988); /* Atur warna background yang ada didalam border */
+    box-shadow: 10px 13px 9px -1px rgba(0,0,0,1); /* Atur box shadow agar ada efek bayangan yang berada di belakang border */
+}
+
+/* CSS untuk Gambar didalam class 'card' */
+.card img {
+    width: 420px; 
+    display: block; /* Jadikan gambar sebagai elemen blok */
+    border-style: outset; 
+    margin: 0 auto 20px; /* Atur posisi gambar agar ketengah lalu berikan jarak antar gambar dan teks */
+}
